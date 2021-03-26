@@ -1,0 +1,372 @@
+/*------------------------------------------------LOGO--------------------------------------------------------------*/
+#logo{
+    position: absolute;
+    left: 10px;
+    margin-left: 10px;
+    top: 10px;
+    padding: 2px;   
+}
+
+#logo img{      
+  width: 100px ;
+ height: auto;
+}
+
+/*-------------------------------------------------BODY-------------------------------------------------------------*/
+body {      
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    margin: 0;    
+}
+
+#testocentrale{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+    position: relative;
+}
+
+#testocentrale p{
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Carter One', cursive;
+    color:ghostwhite;
+    
+    letter-spacing: 1px;
+ 
+}
+
+#testocentrale h4{
+    font-family:Verdana, Tahoma, sans-serif;
+    margin-top: -10px;
+}
+
+/*-------------------------------------------------BARRA------------------------------------------------------------*/
+a{
+    cursor: pointer;                                
+}
+
+a:hover{                                
+    color: rgb(230, 28, 28);          
+}
+
+#comandi a{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-style:normal;
+    letter-spacing: 2px;
+    text-transform: uppercase; 
+    position: relative; 
+    font-size: 16px;  
+   
+    margin: 7px; 
+    z-index: 1;
+}
+#comandi {
+    display: flex;
+    align-items: center;
+    padding-left: 130px;
+}
+
+a.bottone{
+
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 2px;
+    font-size: 16px; 
+    margin-right: 10px;
+
+    padding: 6px 15px;
+    border: 2px solid white;
+    border-radius: 100px;
+   
+}
+
+/*------------------------------------------------HEADER------------------------------------------------------------*/
+header{
+    color:whitesmoke;
+    background-image: url(img/disegno.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    
+    display: flex;  
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav 
+{
+    background-color:rgb(14, 12, 12);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    offset: top;
+    font-size: 15px; 
+ 
+
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+
+    padding:1% 3%;
+    z-index: 2;
+}
+
+
+header h1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    font-size: 60px;
+    z-index: 1;
+}
+
+/*------------------------------------------------------PATINA------------------------------------------------------*/
+header::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/*-------------------------------------------------------MENU 3 LINEE-----------------------------------------------*/
+#menu{
+    display: none;
+
+}
+#menu div{
+    position: relative;
+    width: 25px;
+    height: 3px;
+    background-color: whitesmoke;
+    margin: 5px  0;
+  
+}
+
+/*----------------------------------------------------LOGO ITF CATANIA----------------------------------------------*/
+.centro {
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*------------------------------------------------SEZIONE 0 IN NERO-------------------------------------------------*/
+#main{
+    color:whitesmoke ;
+    background-color: #242523; 
+    padding: 1vw 1vh;
+
+}
+
+#main img{
+    width: 270px;
+}
+
+#main p{
+    margin-left: 20px;
+    margin-right: auto;
+    margin-bottom: 120px;
+    width: 800;
+    font-size: 20px;
+    font-family: 'Truculenta', sans-serif;
+    text-align: center;   
+}
+
+/*----------------------------------------------------SEZIONE 1-----------------------------------------------------*/
+#details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+#details p{
+    font-size: 18px;
+   text-align: justify;
+   font-family:'Ropa Sans', sans-serif;
+}
+
+#tae p{
+    text-align: center ;
+}
+
+#details h1{
+    font-family: 'Truculenta', sans-serif;
+    font-size: 20px;
+    text-align: center;  
+}
+
+#contenuto  img{
+    width: 100%;
+   margin: auto;
+   height: auto;
+}
+
+#txt2 p{
+    text-align: center;
+}
+
+#details div{
+    flex: 35%;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.image{
+    width: 180px;
+    height: 180px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#contenuto{    
+    background-color:white;
+}
+
+/*--------------------------------------------------------SEZIONE 2-------------------------------------------------*/
+#contenuto2{
+    color:whitesmoke ;
+    background-color: black;
+    padding: 1vw 1vh;
+}
+
+#details2 div{   
+    margin: 5px;
+    width: 30%;
+    height: auto;   
+}
+
+#details2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto; 
+}
+
+#details2 h1{   
+    text-align: center;
+    font-family: 'Truculenta', sans-serif;  
+}
+
+#details2 h2{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Truculenta', sans-serif;
+}
+
+#details2 p{
+    font-size: 20px;
+   text-align: left;
+   font-family: 'Truculenta', sans-serif;
+}
+
+#contenuto2  img{
+    width: 100%;
+    height: auto;
+}
+
+#giallo{
+    color: yellow;
+}
+#verde{
+    color: green;
+}
+#blu{
+    color:rgb(33, 33, 230);
+}
+#rosso{
+    color: rgb(255, 16, 16);
+}
+#nero{
+    color: rgb(136, 134, 134);
+}
+
+/*--------------------------------------------------FOOTER----------------------------------------------------------*/
+footer{
+    background-color: rgb(31, 31, 31);
+    color: rgba(255, 255, 255, .8);
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Truculenta', sans-serif;
+}
+
+#social
+{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+#social img{
+    width: 40px;
+    height: auto;
+}
+
+#nome{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+    
+#matricola{
+    font-size: 12px; 
+}
+/*---------------------------------------------------------MOBILE---------------------------------------------------*/
+@media(max-width: 850px){
+    body{
+        font-size: 14px;
+    }
+
+    #details{
+        flex-direction: row;    
+    }
+
+    header{
+        height: 50vh;
+        line-height: 1.2;
+    }
+
+    #testocentrale{
+        font-size: 0.8em;
+        letter-spacing: 1px;
+    }
+
+    #comandi{
+        display: none;
+    }
+
+    #tasto{
+        display: none;
+    }
+    
+    #menu{
+        
+      display: block;
+      
+    }
+    
+    #logo img{
+      width: 35%;
+      height: auto;
+    }
+ 
+    header nav{
+        justify-content: flex-end;
+    }
+    
+}
